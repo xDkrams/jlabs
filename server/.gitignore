@@ -1,0 +1,23 @@
+# Node.js dependencies
+node_modules/
+
+# npm debugging logs
+npm-debug.log
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Environment variables file (if used)
+.env
+
+# Log files
+logs/
+*.log
+
+# Compiled binary files
+*.out
+
+# Dependency lock files
+package-lock.json
+yarn.lock

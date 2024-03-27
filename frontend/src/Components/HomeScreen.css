@@ -1,0 +1,50 @@
+
+.container {
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Align items vertically at the center */
+    align-items: center; /* Align items horizontally at the center */
+  }
+  
+  .search-container {
+    margin-bottom: 1.25rem;
+    display: flex;
+    justify-content: center; /* Align items horizontally at the center */
+  }
+  
+  .search-input input {
+    height: 2rem;
+    width: 20vw;
+  }
+  
+  .search-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-buttons button {
+    margin-left: 0.625rem;
+    height: 2.5rem;
+    width: 5vw;
+  }
+  
+  .ip-Cont {
+    width: 100%;
+    max-width: 37.5rem;
+    border: 1px solid #ccc;
+    padding: 1.25rem;
+  }
+  
+  .ip-info {
+    margin-top: 1.25rem;
+  }
+  
+
+  .error-message {
+    color: red;
+    margin-top: 0.625rem;
+  }
+  
